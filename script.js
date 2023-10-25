@@ -79,8 +79,14 @@ search.addEventListener("submit",(event)=>{
     getUser();
 })
 
+const toggle=document.querySelector("#toggle")
+const body=document.querySelector("body")
 
+toggle.addEventListener("click",()=>{
+    toggle.classList.toggle('active')
+    body.classList.toggle('active')
 
+})
 
 
 

@@ -13,15 +13,19 @@
 
 </head>
 <body>
-    <div id="toggle">
-        <i class="indicator"></i>
-    </div>
+    
     <div class="container">
-        <header class="header d-flex between center">
-            <a class="logo">
-                <img src="./github-logo.png" alt="" class="gitLogo">
-            </a>
-        </header>
+        <div class="headerMain">
+            <header class="header d-flex between center">
+                <a class="logo">
+                    <img src="./github-logo.png" alt="" class="gitLogo">
+                </a>
+                
+            </header>
+            <div id="toggle">
+                <i class="indicator"></i>
+            </div>
+        </div>
         <form class="search-form d-flex between center">
             <i class="far fa-fw fa-search"></i>
             <input type="text" placeholder="Search Github username" class="keyword">
@@ -31,6 +35,7 @@
         <div class="user-card">
             <div class="loader">Please enter your Github username</div>
         </div>
+        
     </div>
     <script src="./script.js"></script>
 </body>
